@@ -20,7 +20,7 @@ const CallToAction = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Button variant="hero" size="lg" className="text-lg px-12 py-6">
+              <Button variant="hero" size="lg" className="text-lg px-12 py-6" onClick={() => window.location.href = '/shop'}>
                 Shop AI Products
               </Button>
               <Button variant="glass" size="lg" className="text-lg px-12 py-6">

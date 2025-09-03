@@ -10,11 +10,10 @@ const Navbar = () => {
               Apple AI
             </div>
             <div className="hidden md:flex space-x-6">
-              <a href="#" className="text-foreground/80 hover:text-foreground transition-smooth">Mac</a>
-              <a href="#" className="text-foreground/80 hover:text-foreground transition-smooth">iPad</a>
-              <a href="#" className="text-foreground/80 hover:text-foreground transition-smooth">iPhone</a>
-              <a href="#" className="text-foreground/80 hover:text-foreground transition-smooth">Watch</a>
-              <a href="#" className="text-foreground/80 hover:text-foreground transition-smooth">AI</a>
+              <a href="/" className="text-foreground/80 hover:text-foreground transition-smooth">Home</a>
+              <a href="/shop" className="text-foreground/80 hover:text-foreground transition-smooth">Shop</a>
+              <a href="#" className="text-foreground/80 hover:text-foreground transition-smooth">About</a>
+              <a href="#" className="text-foreground/80 hover:text-foreground transition-smooth">Contact</a>
             </div>
           </div>
           <Button variant="hero" size="sm">
